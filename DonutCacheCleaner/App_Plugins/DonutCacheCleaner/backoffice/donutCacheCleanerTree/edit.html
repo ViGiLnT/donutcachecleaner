@@ -1,0 +1,36 @@
+﻿<form name="contentForm"
+      ng-controller="OA.CacheCleanerEditController"
+      ng-show="loaded"
+      ng-submit="clearcache()"
+      val-form-manager>
+    <umb-panel>
+        <umb-header>
+            <div class="span7">
+                <h1 class="umb-headline" placeholder="@placeholders_entername">Everything</h1>
+            </div>
+        </umb-header>
+        <div class="umb-panel-body umb-scrollable row-fluid">
+            <div class="tab-content form-horizontal" style="padding-bottom: 90px">
+                <div class="umb-pane">
+                    <div class="control-group umb-control-group" ng-class="{hidelabel:property.hideLabel}">
+                        <div class="umb-el-wrap">
+                            <label class="control-label" ng-hide="property.hideLabel">Content to Refresh</label>
+                            <div class="controls controls-row">
+                                <span>Everything</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="umb-tab-buttons" detect-fold>
+                        <div class="btn-group">
+                            <button type="submit" data-hotkey="ctrl+s" class="btn btn-success">Refresh</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </umb-panel>
+</form>
+
+
+
+

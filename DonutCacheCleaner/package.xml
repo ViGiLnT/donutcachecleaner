@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<umbPackage>
+  <info>
+    <package>
+      <name><%= name %></name>
+      <version><%= version %></version>
+      <license url="<%= licenseUrl %>"><%= license %></license>
+      <url><%= url %></url>
+      <requirements>
+        <major>3</major>
+        <minor>0</minor>
+        <patch>0</patch>
+      </requirements>
+    </package>
+    <author>
+      <name><%= author %></name>
+      <website><%= authorUrl %></website>
+    </author>
+    <readme><![CDATA[<%= readme %>]]></readme>
+  </info>
+  <DocumentTypes />
+  <Templates />
+  <Stylesheets />
+  <Macros />
+  <DictionaryItems />
+  <Languages />
+  <DataTypes />
+  <control />
+  <Actions>
+    <Action runat="install" undo="true" alias="addDashboardSection" dashboardAlias="StartupDonutCacheCleanerDashboardSection">
+      <section>
+        <areas>
+          <area>donutCacheCleaner</area>
+        </areas>
+        <tab caption="Get Started">
+          <control showOnce="true" addPanel="true" panelCaption="">
+            views/dashboard/donutcachecleaner/donutcachecleanerdashboard.html
+          </control>
+        </tab>
+      </section>
+    </Action>
+  </Actions>
+  <Action runat="install" undo="true" alias="AddLanguageFileKey" language="en" position="end" area="sections" key="donutCacheCleaner" value="Donut Cache Cleaner" />
+  <Action runat="install" undo="true" alias="AddLanguageFileKey" language="pt" position="end" area="sections" key="donutCacheCleaner" value="Donut Cache Cleaner" />
+  <Action runat="install" undo="true" alias="AddLanguageFileKey" language="cs" position="end" area="sections" key="donutCacheCleaner" value="Donut Cache Cleaner" />
+  <Action runat="install" undo="true" alias="AddLanguageFileKey" language="da" position="end" area="sections" key="donutCacheCleaner" value="Donut Cache Cleaner" />
+  <Action runat="install" undo="true" alias="AddLanguageFileKey" language="en_us" position="end" area="sections" key="donutCacheCleaner" value="Donut Cache Cleaner" />
+  <Action runat="install" undo="true" alias="AddLanguageFileKey" language="es" position="end" area="sections" key="donutCacheCleaner" value="Donut Cache Cleaner" />
+  <Action runat="install" undo="true" alias="AddLanguageFileKey" language="fr" position="end" area="sections" key="donutCacheCleaner" value="Donut Cache Cleaner" />
+  <Action runat="install" undo="true" alias="AddLanguageFileKey" language="he" position="end" area="sections" key="donutCacheCleaner" value="Donut Cache Cleaner" />
+  <Action runat="install" undo="true" alias="AddLanguageFileKey" language="it" position="end" area="sections" key="donutCacheCleaner" value="Donut Cache Cleaner" />
+  <Action runat="install" undo="true" alias="AddLanguageFileKey" language="ja" position="end" area="sections" key="donutCacheCleaner" value="Donut Cache Cleaner" />
+  <Action runat="install" undo="true" alias="AddLanguageFileKey" language="ko" position="end" area="sections" key="donutCacheCleaner" value="Donut Cache Cleaner" />
+  <Action runat="install" undo="true" alias="AddLanguageFileKey" language="nl" position="end" area="sections" key="donutCacheCleaner" value="Donut Cache Cleaner" />
+  <Action runat="install" undo="true" alias="AddLanguageFileKey" language="no" position="end" area="sections" key="donutCacheCleaner" value="Donut Cache Cleaner" />
+  <Action runat="install" undo="true" alias="AddLanguageFileKey" language="pl" position="end" area="sections" key="donutCacheCleaner" value="Donut Cache Cleaner" />
+  <Action runat="install" undo="true" alias="AddLanguageFileKey" language="ru" position="end" area="sections" key="donutCacheCleaner" value="Donut Cache Cleaner" />
+  <Action runat="install" undo="true" alias="AddLanguageFileKey" language="sv" position="end" area="sections" key="donutCacheCleaner" value="Donut Cache Cleaner" />
+  <Action runat="install" undo="true" alias="AddLanguageFileKey" language="zh" position="end" area="sections" key="donutCacheCleaner" value="Donut Cache Cleaner" />
+  <files>
+  	<% files.forEach(function(file) { %>
+  	<file>
+      <guid><%= file.guid %></guid>
+      <orgPath><%= file.dir %></orgPath>
+      <orgName><%= file.name %></orgName>
+    </file>
+	<% }); %>
+  </files>
+</umbPackage>

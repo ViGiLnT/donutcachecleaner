@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Binaries", "Binaries", "{029A1273-25C4-4797-86BD-05E3606C315B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Umbraco", "Umbraco", "{3A0D06AC-5BA5-4247-BD4E-084290A011FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.4.3", "7.4.3", "{E753D5AD-99FA-4EE8-A709-5DE6CD347817}"
+	ProjectSection(SolutionItems) = preProject
+		Binaries\Umbraco\7.4.3\businesslogic.dll = Binaries\Umbraco\7.4.3\businesslogic.dll
+		Binaries\Umbraco\7.4.3\cms.dll = Binaries\Umbraco\7.4.3\cms.dll
+		Binaries\Umbraco\7.4.3\interfaces.dll = Binaries\Umbraco\7.4.3\interfaces.dll
+		Binaries\Umbraco\7.4.3\Newtonsoft.Json.dll = Binaries\Umbraco\7.4.3\Newtonsoft.Json.dll
+		Binaries\Umbraco\7.4.3\System.Net.Http.Formatting.dll = Binaries\Umbraco\7.4.3\System.Net.Http.Formatting.dll
+		Binaries\Umbraco\7.4.3\System.Web.Helpers.dll = Binaries\Umbraco\7.4.3\System.Web.Helpers.dll
+		Binaries\Umbraco\7.4.3\System.Web.Http.dll = Binaries\Umbraco\7.4.3\System.Web.Http.dll
+		Binaries\Umbraco\7.4.3\System.Web.Mvc.dll = Binaries\Umbraco\7.4.3\System.Web.Mvc.dll
+		Binaries\Umbraco\7.4.3\System.Web.Razor.dll = Binaries\Umbraco\7.4.3\System.Web.Razor.dll
+		Binaries\Umbraco\7.4.3\System.Web.WebPages.Deployment.dll = Binaries\Umbraco\7.4.3\System.Web.WebPages.Deployment.dll
+		Binaries\Umbraco\7.4.3\System.Web.WebPages.dll = Binaries\Umbraco\7.4.3\System.Web.WebPages.dll
+		Binaries\Umbraco\7.4.3\System.Web.WebPages.Razor.dll = Binaries\Umbraco\7.4.3\System.Web.WebPages.Razor.dll
+		Binaries\Umbraco\7.4.3\Umbraco.Core.dll = Binaries\Umbraco\7.4.3\Umbraco.Core.dll
+		Binaries\Umbraco\7.4.3\umbraco.dll = Binaries\Umbraco\7.4.3\umbraco.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DonutCacheCleaner", "DonutCacheCleaner\DonutCacheCleaner.csproj", "{CCE231A3-A989-41EC-9F94-C24DD4922C94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PackageActionsContrib", "PackageActionsContrib", "{8F1BFD80-C78A-4EA8-8ADF-CF50AE484533}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.0.7", "1.0.7", "{82F9835C-A29E-417B-84DB-A6C4B3A8B599}"
+	ProjectSection(SolutionItems) = preProject
+		Binaries\PackageActionsContrib\1.0.7\PackageActionsContrib.dll = Binaries\PackageActionsContrib\1.0.7\PackageActionsContrib.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCE231A3-A989-41EC-9F94-C24DD4922C94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCE231A3-A989-41EC-9F94-C24DD4922C94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCE231A3-A989-41EC-9F94-C24DD4922C94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCE231A3-A989-41EC-9F94-C24DD4922C94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A0D06AC-5BA5-4247-BD4E-084290A011FA} = {029A1273-25C4-4797-86BD-05E3606C315B}
+		{E753D5AD-99FA-4EE8-A709-5DE6CD347817} = {3A0D06AC-5BA5-4247-BD4E-084290A011FA}
+		{8F1BFD80-C78A-4EA8-8ADF-CF50AE484533} = {029A1273-25C4-4797-86BD-05E3606C315B}
+		{82F9835C-A29E-417B-84DB-A6C4B3A8B599} = {8F1BFD80-C78A-4EA8-8ADF-CF50AE484533}
+	EndGlobalSection
+EndGlobal

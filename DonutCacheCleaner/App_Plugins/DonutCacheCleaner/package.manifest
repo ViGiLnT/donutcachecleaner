@@ -1,0 +1,6 @@
+﻿{
+  javascript: [
+    "~/App_Plugins/DonutCacheCleaner/backoffice/donutCacheCleanerTree/edit.controller.js",
+    "~/App_Plugins/DonutCacheCleaner/cachecleaner.resource.js"
+  ]
+}
