@@ -16,5 +16,5 @@
   "name": "DonutCacheCleaner",
   "readme": "Umbraco Plugin for refreshing the output cache",
   "url": "https://our.umbraco.org/projects/backoffice-extensions/donutcachecleaner",
-  "version": "1.0.0"
+  "version": "1.1.0"
 }

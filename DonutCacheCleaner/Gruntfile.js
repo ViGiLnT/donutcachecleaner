@@ -28,7 +28,8 @@ module.exports = function (grunt) {
                         cwd: projectRoot + 'bin/',
                         src: [
                             packageNamespace + '.' + pkg.name + '.dll',
-                            'PackageActionsContrib.dll'
+                            'PackageActionsContrib.dll',
+                            'DevTrends.MvcDonutCaching.dll'
                         ],
                         dest: 'bld/bin/'
                     },

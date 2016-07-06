@@ -6,7 +6,7 @@
     /// <summary>
     /// Section config.
     /// </summary>
-    [Application("donutCacheCleaner", "DonutCacheCleaner", "icon-delete", 15)]
+    [Application("donutCacheCleaner", "DonutCacheCleaner", "icon-refresh", 15)]
     public class Section :IApplication
     {
     }
