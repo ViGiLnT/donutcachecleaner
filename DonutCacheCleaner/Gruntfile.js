@@ -8,7 +8,7 @@ module.exports = function (grunt) {
     var pkg = grunt.file.readJSON('package.json');
 
     // get the root path of the project
-    var projectRoot = 'C:/Data/workspace/GitHub/outputcachecleaner/Create.Umbraco.Plugin/DonutCacheCleaner/';
+    var projectRoot = 'C:/Data/workspace/GitHub/donutcachecleaner/DonutCacheCleaner/';
     var packageNamespace = "Create.Umbraco.Plugin";
 
     grunt.initConfig({
